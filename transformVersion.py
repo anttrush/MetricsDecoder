@@ -1,7 +1,7 @@
 import csv
 import os
 
-rootDir = r"D:\科研\CodeQualityAnalysis\CodeAnalysis\Java1H-2H"
+rootDir = r"D:\科研\CodeQualityAnalysis\CodeAnalysis\Java1H-2H" # 1H-2H 2H-5H 5H-1K 1K-3W
 
 for proj in os.listdir(rootDir):
     if os.path.isdir(os.path.join(rootDir,proj)):
